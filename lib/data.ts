@@ -84,12 +84,13 @@ export const educationData = [
 
 
 export const projectsData = [
-
+  
   {
-    title: "SERVERLESS B&B",
-    description:"Developed a cloud-based hotel reservation system facilitating accommodation booking, restaurant food orders, and personalized trip package requests.",
-    tags: ["React","Python","AWS","JavaScript","Git"],
-    imageUrl: BreadAndBreakFast,
+    title: "Alpha Algo",
+    description:"Founded and actively developed Alpha Algo, a dynamic coding platform with a user base exceeding 50 individuals.",
+    tags: ["React", "Node", "AWS", "Redux", "CSS"],
+    imageUrl: Alpha,
+    projectUrl:"https://www.alphaalgos.com"
   },
   {
     title: "DAL - MULTIFAITH SERVICE",
@@ -97,16 +98,27 @@ export const projectsData = [
     "Designed the platform following agile methodology to help 20000+ students overcome mental health issues.",
     tags: ["React", "Python", "Django","MongoDB","MySQL"],
     imageUrl: DMS,
+    projectUrl: "https://dal-multifaith-frontend-deploy.vercel.app/"
   },
   {
-    title: "DISTRIBUTED DBMS",
+    title: "RentoCar",
     description:
-    "Developed a distributed Java-based DBMS for multi-site processing, incorporating global/local metadata, secure data storage, user authentication, and transaction logging.",
-    tags: ["Java", "Git", "GCP", "Linux"],
-    imageUrl: Ddbms,
+    "An app for easy car reservations with online payment, reviews, comparison, offers, support, and job applications.",
+    tags: ["React", "Node.js","Express.js","MongoDB","MySQL","AWS", "Git"],
+    imageUrl: Rento,
+    projectUrl: "https://rent-car-seven.vercel.app/"
+  },
+
+  {
+    title: "SERVERLESS B&B",
+    description:"Developed a cloud-based hotel reservation system facilitating accommodation booking, restaurant food orders, and personalized trip package requests.",
+    tags: ["React","Python","AWS","JavaScript","Git"],
+    imageUrl: BreadAndBreakFast,
+    projectUrl:"https://github.com/ANASMALVAT/Serverless-Bed-and-Breakfast"
   },
 
 ] as const;
+
 
 export const skillsData = [
   "HTML",
