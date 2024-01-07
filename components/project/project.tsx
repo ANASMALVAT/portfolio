@@ -12,6 +12,7 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  projectUrl
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -21,13 +22,17 @@ export default function Project({
   const scaleProgess = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
   const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
 
+  const openNewTab = () => {
+    window.open(projectUrl,"_blank");
+  }
+
   return (
     <motion.div
-      ref={ref}
       style={{
         scale: scaleProgess,
         opacity: opacityProgess,
       }}
+      onClick={openNewTab}
       className="group mb-3 sm:mb-8 last:mb-0 cursor-pointer"
     
     >
@@ -40,7 +45,7 @@ export default function Project({
           <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
             {tags.map((tag, index) => (
               <li
-                className="bg-[#011B33] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
+                className="bg-[#606eee] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
                 key={index}
               >
                 {tag}
@@ -53,7 +58,7 @@ export default function Project({
           src={imageUrl}
           alt="Project I worked on"
           quality={95}
-          className="absolute hidden sm:block top-8 -right-40 w-[28.33rem] rounded-t-lg shadow-2xl
+          className="absolute hidden sm:block top-8 -right-40 w-[28.33rem] rounded-lg shadow-2xl
         transition 
         group-hover:scale-[1.04]
         group-hover:-translate-x-3
