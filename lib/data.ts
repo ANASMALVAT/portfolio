@@ -2,8 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import BreadAndBreakFast from "@/public/BreadAndBreakfast.jpg";
-import Ddbms from "@/public/ddbms.jpg";
+import Alpha from "@/public/Alpha.png";
 import DMS from "@/public/DMS.png"
+import Rento from "@/public/car-rent.png"
 
 export const links = [
   {
