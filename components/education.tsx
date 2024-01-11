@@ -20,7 +20,7 @@ export default function Education() {
           <React.Fragment key={index}>
             <VerticalTimelineElement
                contentStyle={{
-                background:"#FDFAFB",
+                background:"#E8E9ED",
                 boxShadow: "none",
                 border: "1px solid rgba(0, 0, 0, 0.05)",
                 textAlign: "left",
@@ -35,7 +35,7 @@ export default function Education() {
               date={item.date}
               icon={item.icon}
               iconStyle={{
-                background:"#FDFAFB",
+                background:"#E8E9ED",
                 fontSize: "1.5rem",
                 color:"#0f172a",
                 
