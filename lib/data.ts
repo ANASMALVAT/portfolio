@@ -94,12 +94,11 @@ export const projectsData = [
     projectUrl:"https://www.alphaalgos.com"
   },
   {
-    title: "DAL - MULTIFAITH SERVICE",
-    description:
-    "Designed the platform following agile methodology to help 20000+ students overcome mental health issues.",
-    tags: ["React", "Python", "Django","MongoDB","MySQL"],
-    imageUrl: DMS,
-    projectUrl: "https://dal-multifaith-frontend-deploy.vercel.app/"
+    title: "Online Code Compiler",
+    description:"RapidAPI for the deployment of Judge0, facilitating code compilation across 40+ languages.",
+    tags: ["React", "TailwindCSS", "REST API", "RAPID API"],
+    imageUrl: Alpha,
+    projectUrl:"https://online-ide-ruddy.vercel.app/"
   },
   {
     title: "RentoCar",
@@ -108,6 +107,14 @@ export const projectsData = [
     tags: ["React", "Node.js","Express.js","MongoDB","MySQL","AWS", "Git"],
     imageUrl: Rento,
     projectUrl: "https://rent-car-seven.vercel.app/"
+  },
+  {
+    title: "DAL - MULTIFAITH SERVICE",
+    description:
+    "Designed the platform following agile methodology to help 20000+ students overcome mental health issues.",
+    tags: ["React", "Python", "Django","MongoDB","MySQL"],
+    imageUrl: DMS,
+    projectUrl: "https://dal-multifaith-frontend-deploy.vercel.app/"
   },
 
   {
