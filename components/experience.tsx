@@ -20,7 +20,7 @@ export default function Experience() {
           <React.Fragment key={index}>
             <VerticalTimelineElement
               contentStyle={{
-                background:"#FDFAFB",
+                background:"#E8E9ED",
                 boxShadow: "none",
                 border: "1px solid rgba(0, 0, 0, 0.05)",
                 textAlign: "left",
@@ -35,7 +35,7 @@ export default function Experience() {
               date={item.date}
               icon={item.icon}
               iconStyle={{
-                background:"#FDFAFB",
+                background:"#E8E9ED",
                 fontSize: "1.5rem",
                 color:"#0f172a",
                 
@@ -50,10 +50,6 @@ export default function Experience() {
           </React.Fragment>
         ))}
       </VerticalTimeline>
-      <div
-          className="group m-auto   w-1/2  px-7 py-3 flex items-center justify-center gap-2 rounded-full outline-none text-white focus:scale-110 hover:scale-105 bg-[#030712] a transition mt-2"
-          > All Experience In CV{" "}
-      </div>
     </section>
   );
 }
