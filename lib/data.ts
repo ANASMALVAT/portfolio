@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import BreadAndBreakFast from "@/public/BreadAndBreakfast.jpg";
-import Alpha from "@/public/Alpha.png";
+import Omnicent from "@/public/omnicent.png";
 import DMS from "@/public/DMS.png"
 import Rento from "@/public/car-rent.png"
 
@@ -37,7 +37,7 @@ export const experiencesData = [
   {
     title: "Founder",
     location: "Alpha Algo",
-    description:"Founded and actively developed Alpha Algo, a dynamic coding platform with a user base exceeding 50 individuals.",
+    description: "Founded and actively developed Alpha Algo, a dynamic coding platform with a user base exceeding 50 individuals.",
     icon: React.createElement(CgWorkAlt),
     date: "Aug 2023",
   },
@@ -52,7 +52,7 @@ export const experiencesData = [
   {
     title: "Software Developer co-op",
     location: "Canada Revenue Agency",
-    description:"Developed a highly efficient microservice in an Agile environment, leveraging cutting-edge technologies to streamline processes and enhance overall efficiency.",
+    description: "Developed a highly efficient microservice in an Agile environment, leveraging cutting-edge technologies to streamline processes and enhance overall efficiency.",
     icon: React.createElement(CgWorkAlt),
     date: "Jan 2023 - May 2023",
   },
@@ -89,16 +89,24 @@ export const projectsData = [
   {
     title: "Alpha Algo",
     description:"Founded and actively developed Alpha Algo, a dynamic coding platform with a user base exceeding 50 individuals.",
-    tags: ["React", "Node", "AWS", "Redux", "CSS"],
+    tags: ["React", "Node", "AWS", "Redux", "CSS ..."],
     imageUrl: Alpha,
     projectUrl:"https://www.alphaalgos.com"
   },
   {
+    title: "omnicent",
+    description: "My First SaaS product. With Omnicent you can interact with your PDF just like you interact with chatGPT.",
+    tags: ["NextJs", "TypeScript", "tRPC", "Prisma", "AWS S3", "MySQL ..."],
+    imageUrl: Omnicent,
+    projectUrl:"https://omnigpt-five.vercel.app"
+  },
+  
+  {
     title: "Online Code Compiler",
     description:"RapidAPI for the deployment of Judge0, facilitating code compilation across 40+ languages.",
-    tags: ["React", "TailwindCSS", "REST API", "RAPID API"],
+    tags: ["React", "TailwindCSS", "REST API", "RAPID API ..."],
     imageUrl: Alpha,
-    projectUrl:"https://online-ide-ruddy.vercel.app/"
+    projectUrl: "https://online-ide-ruddy.vercel.app/"
   },
   {
     title: "RentoCar",
