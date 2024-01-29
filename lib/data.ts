@@ -89,14 +89,14 @@ export const educationData = [
 export const projectsData = [
   
   {
-    title: "Alpha Algo",
+    title: "ALPHA ALGO",
     description:"Founded and actively developing Alpha Algo, a dynamic coding platform with a user base exceeding 50 individuals.",
     tags: ["React", "Node", "AWS", "Redux", "CSS ..."],
     imageUrl: Alpha,
     projectUrl:"https://www.alphaalgos.com"
   },
   {
-    title: "omnicent",
+    title: "OMNICENT",
     description: "My First SaaS product. With Omnicent you can interact with your PDF just like you interact with chatGPT.",
     tags: ["NextJs", "TypeScript", "tRPC", "Prisma", "AWS S3", "MySQL ..."],
     imageUrl: Omnicent,
@@ -104,14 +104,14 @@ export const projectsData = [
   },
   
   {
-    title: "Online Code Compiler",
-    description:"RapidAPI for the deployment of Judge0, facilitating code compilation across 40+ languages.",
+    title: "ONLINE CODE EDITOR",
+    description:"Online code editor, facilitating code compilation across 40+ languages.",
     tags: ["React", "TailwindCSS", "REST API", "RAPID API ..."],
     imageUrl: IDE,
     projectUrl: "https://online-ide-ruddy.vercel.app/"
   },
   {
-    title: "RentoCar",
+    title: "RENTOCAR",
     description:
     "An app for easy car reservations with online payment, reviews, comparison, offers, support, and job applications.",
     tags: ["React", "Node.js","Express.js","MongoDB","MySQL","AWS", "Git"],
@@ -125,14 +125,6 @@ export const projectsData = [
     tags: ["React", "Python", "Django","MongoDB","MySQL"],
     imageUrl: DMS,
     projectUrl: "https://dal-multifaith-frontend-deploy.vercel.app/"
-  },
-
-  {
-    title: "SERVERLESS B&B",
-    description:"Developed a cloud-based hotel reservation system facilitating accommodation booking, restaurant food orders, and personalized trip package requests.",
-    tags: ["React","Python","AWS","JavaScript","Git"],
-    imageUrl: BreadAndBreakFast,
-    projectUrl:"https://github.com/ANASMALVAT/Serverless-Bed-and-Breakfast"
   },
 
 ] as const;
