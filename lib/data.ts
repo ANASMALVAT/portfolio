@@ -3,6 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import BreadAndBreakFast from "@/public/BreadAndBreakfast.jpg";
 import Omnicent from "@/public/omnicent.png";
+import Alpha from "@/public/Alpha.png"
 import DMS from "@/public/DMS.png"
 import Rento from "@/public/car-rent.png"
 
