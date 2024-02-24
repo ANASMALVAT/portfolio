@@ -39,9 +39,9 @@ export const experiencesData = [
   {
     title: "Full Stack Developer",
     location: "RiskTec Systems",
-    description: "Dynamic Full Stack Developer at RiskTec Systems skilled in Python Django, DRF, TypeScript, React, Next.Js, Redux, Docker; noted for secure back-end architecture.",
+    description: "Full Stack Developer at RiskTec Systems skilled in Python Django, DRF, TypeScript, React, Next.Js, Redux, Docker; noted for secure back-end architecture, data model refinement, and collaborative teamwork.",
     icon: React.createElement(CgWorkAlt),
-    date: "Jan 2024",
+    date: "Jan 2024 - Present",
   },
   {
     title: "Founder",
