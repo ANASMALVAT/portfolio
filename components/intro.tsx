@@ -7,6 +7,8 @@ import { BsArrowRight} from "react-icons/bs"
 import { BsLinkedin} from "react-icons/bs"
 import { BsGithub} from "react-icons/bs"
 import{HiDownload} from "react-icons/hi"
+import AlphaTeam from "@/public/alpha-team-focused.jpg"
+
 
 export default function Intro() {
 
@@ -22,7 +24,7 @@ export default function Intro() {
                                 duration:0.4
                             }}
                             >
-                            <Image width={"192"} height={"192"} quality={"95"} priority={true}  src={"https://photos.app.goo.gl/jiTTeXEPqrn2wn6C7"} alt="Anas Potrait"
+                            <Image width={"192"} height={"192"} quality={"95"} priority={true} src={AlphaTeam} alt="Anas Potrait"
                                 className=" h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl hover:scale-110 hover:duration-300">
                             </Image>
                             <motion.span className=" text-4xl absolute  bottom-0 right-0 " 
