@@ -37,6 +37,13 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Full Stack Developer",
+    location: "RiskTec Systems",
+    description: "Dynamic Full Stack Developer at RiskTec Systems skilled in Python Django, DRF, TypeScript, React, Next.Js, Redux, Docker; noted for secure back-end architecture.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Jan 2024",
+  },
+  {
     title: "Founder",
     location: "Alpha Algo",
     description: "Founded and actively developing Alpha Algo, a dynamic coding platform with a user base exceeding 50 individuals.",
