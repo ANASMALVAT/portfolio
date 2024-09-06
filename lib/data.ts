@@ -100,7 +100,14 @@ export const projectsData = [
     description:"Founded and actively developing Alpha Algo, a dynamic coding platform with a user base exceeding 50 individuals.",
     tags: ["React", "Node", "AWS", "Redux", "CSS ..."],
     imageUrl: Alpha,
-    projectUrl:"https://www.alphaalgos.com"
+    projectUrl:"http://52.201.195.236:3000/"
+  },
+  {
+    title: "ONLINE CODE EDITOR",
+    description:"Online code editor, facilitating code compilation across 40+ languages.",
+    tags: ["React", "TailwindCSS", "REST API", "RAPID API ..."],
+    imageUrl: IDE,
+    projectUrl: "https://online-ide-ruddy.vercel.app/"
   },
   {
     title: "OMNICENT",
@@ -108,14 +115,6 @@ export const projectsData = [
     tags: ["NextJs", "TypeScript", "tRPC", "Prisma", "AWS S3", "MySQL ..."],
     imageUrl: Omnicent,
     projectUrl:"https://omnigpt-five.vercel.app"
-  },
-  
-  {
-    title: "ONLINE CODE EDITOR",
-    description:"Online code editor, facilitating code compilation across 40+ languages.",
-    tags: ["React", "TailwindCSS", "REST API", "RAPID API ..."],
-    imageUrl: IDE,
-    projectUrl: "https://online-ide-ruddy.vercel.app/"
   },
   {
     title: "RENTOCAR",
