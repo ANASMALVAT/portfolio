@@ -52,8 +52,8 @@ export default function Intro() {
                     }}
                 >
                     <span className="font-bold">Hello, I'm Anas.</span> I'm a{" "}
-                    <span className="font-bold">full-stack developer</span> with{" "}
-                    <span className="font-bold">2 years</span> of experience. I consider
+                    <span className="font-bold">full-stack developer</span> with over{" "} 
+                    <span className="font-bold">3 years</span> of experience. I consider
                     myself as a problem solver <span className="italic"> computer scientist.</span> My focus is on{" "}
                     <span className="underline">making an impact.</span>
                 </motion.h1>
