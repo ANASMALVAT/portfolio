@@ -70,7 +70,7 @@ export const experiencesData = [
     location: "Cromson Technologies",
     description:"Utilized Agile development methodologies to elevate e-commerce engagement, employing a diverse tech stack including Django, Spring, React, and Node.js.",
     icon: React.createElement(CgWorkAlt),
-    date: "Nov 2020 - Nov 2021",
+    date: "Jan 2020 - Jan 2022",
   },
 ] as const;
 
@@ -87,7 +87,7 @@ export const educationData = [
     location: "Gujarat Technological University",
     description:"I graduated in Information Technology from Gujarat Technological University with a CGPA of 8.92.",
     icon: React.createElement(LuGraduationCap),
-    date: "Aug 2017 - Aug 2021",
+    date: "Aug 2016 - Aug 2020",
   },
 
 ] as const;
