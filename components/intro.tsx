@@ -71,7 +71,6 @@ export default function Intro() {
                 Contact Me{" "}
                 <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
                 </a>
-                <a className=" bg-white text-gray-900 px-5 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition cursor-pointer" download href="/CV.pdf"> Download CV <HiDownload/> </a>
                 <a className=" bg-white text-gray-900 px-5 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition cursor-pointer" download target="_blank" href="http://52.201.195.236:3000"> Alpha Algo <BsArrowRight/> </a>
                 <a className=" bg-white text-gray-900 px-5 py-3 flex items-center gap-2  hover:scale-105 rounded-full cursor-pointer " href="https://www.linkedin.com/in/anas-malvat/"  target="_blank"> <BsLinkedin/> </a>
                 <a className=" bg-white text-gray-900 px-5 py-3 flex items-center gap-2 rounded-full hover:scale-105 cursor-pointer " href="https://github.com/ANASMALVAT/" target="_blank"> <BsGithub/> </a>
