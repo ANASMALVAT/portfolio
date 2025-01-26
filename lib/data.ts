@@ -110,19 +110,19 @@ export const projectsData = [
     projectUrl: "https://online-ide-ruddy.vercel.app/"
   },
   {
-    title: "OMNICENT",
-    description: "My First SaaS product. With Omnicent you can interact with your PDF just like you interact with chatGPT.",
-    tags: ["NextJs", "TypeScript", "tRPC", "Prisma", "AWS S3", "MySQL ..."],
-    imageUrl: Omnicent,
-    projectUrl:"https://omnigpt-five.vercel.app"
-  },
-  {
     title: "RENTOCAR",
     description:
     "An app for easy car reservations with online payment, reviews, comparison, offers, support, and job applications.",
     tags: ["React", "Node.js","Express.js","MongoDB","MySQL","AWS", "Git"],
     imageUrl: Rento,
-    projectUrl: "https://rent-car-seven.vercel.app/"
+    projectUrl: "https://rento-car-frontend-deploy.vercel.app/"
+  },
+  {
+    title: "OMNICENT",
+    description: "My First SaaS product. With Omnicent you can interact with your PDF just like you interact with chatGPT.",
+    tags: ["NextJs", "TypeScript", "tRPC", "Prisma", "AWS S3", "MySQL ..."],
+    imageUrl: Omnicent,
+    projectUrl:"https://omnigpt-five.vercel.app"
   },
   {
     title: "DAL - MULTIFAITH SERVICE",
@@ -131,7 +131,7 @@ export const projectsData = [
     tags: ["React", "Python", "Django","MongoDB","MySQL"],
     imageUrl: DMS,
     projectUrl: "https://dal-multifaith-frontend-deploy.vercel.app/"
-  },
+  }
 
 ] as const;
 
