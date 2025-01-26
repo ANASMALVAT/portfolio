@@ -44,14 +44,7 @@ export const experiencesData = [
     date: "Jan 2024 - Present",
   },
   {
-    title: "Founder",
-    location: "Alpha Algo",
-    description: "Founded and actively developing Alpha Algo, a dynamic coding platform with a user base exceeding 50 individuals.",
-    icon: React.createElement(CgWorkAlt),
-    date: "Aug 2023",
-  },
-  {
-    title: "Freelance Software Developer",
+    title: " Software Developer",
     location: "Dalhousie University",
     description:
     "Developed a comprehensive GitLab Visualization tool aimed at monitoring student activities across three courses for Dalhousie University.",
@@ -66,7 +59,7 @@ export const experiencesData = [
     date: "Jan 2023 - May 2023",
   },
   {
-    title: "Software Developer",
+    title: "Software Engineer",
     location: "Cromson Technologies",
     description:"Utilized Agile development methodologies to elevate e-commerce engagement, employing a diverse tech stack including Django, Spring, React, and Node.js.",
     icon: React.createElement(CgWorkAlt),
