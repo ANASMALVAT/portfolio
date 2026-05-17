@@ -38,6 +38,13 @@ export const links = [
 export const experiencesData = [
   {
     title: "Full Stack Developer",
+    location: "iCAD Dental",
+    description: "Led iCAD Dental's backend modernization from proof of concept to product launch — migrated a monolithic dental analysis platform to event-driven AWS microservices (Lambda, SQS, EventBridge, ECS, DynamoDB Streams, S3), optimized AI/ML scan processing by up to 100x, and built FastAPI + React/Three.js services for interactive 3D tooth visualization with IndexedDB caching.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Feb 2025 - Jun 2026",
+  },
+  {
+    title: "Full Stack Developer",
     location: "RiskTec Systems",
     description: "Full Stack Developer at RiskTec Systems skilled in Python Django, DRF, TypeScript, React, Next.Js, Redux, Docker; noted for secure back-end architecture, data model refinement, and collaborative teamwork.",
     icon: React.createElement(CgWorkAlt),
@@ -93,7 +100,7 @@ export const projectsData = [
     description:"Founded and actively developing Alpha Algo, a dynamic coding platform with a user base exceeding 50 individuals.",
     tags: ["React", "Node", "AWS", "Redux", "CSS ..."],
     imageUrl: Alpha,
-    projectUrl:"http://52.201.195.236:3000/"
+    projectUrl:"https://alpha-x-demo.vercel.app/"
   },
   {
     title: "ONLINE CODE EDITOR",
