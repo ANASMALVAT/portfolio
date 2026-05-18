@@ -78,7 +78,7 @@ export const educationData = [
   {
     title: "MACS",
     location: "Dalhousie University",
-    description:"Completed a Master's in Applied Computer Science from Dalhousie University with a GPA of 4.23.",
+    description:"Completed a Master's in Applied Computer Science from Dalhousie University with a GPA of 4.25/4.3.",
     icon: React.createElement(LuGraduationCap),
     date: "Jan 2022 - May 2023",
   },
